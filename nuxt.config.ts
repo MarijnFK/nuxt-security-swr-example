@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
   modules: ['nuxt-security'],
   security: {
-    enabled: true,
+    enabled: false,
     nonce: true, // Enables HTML nonce support in SSR mode
     ssg: {
       hashScripts: true,
